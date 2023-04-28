@@ -1,0 +1,56 @@
+> /root/Code/Code/model.py(221)forward()
+-> num_patches = x.shape[-1]
+> /root/Code/Code/model.py(222)forward()
+-> ratio = round(((d * h * w) / num_patches)**(1/3))
+torch.Size([1, 125, 79507])
+> /root/Code/Code/model.py(223)forward()
+-> x = rearrange(x, 'b c (d h w) -> b c d h w', h = h // ratio, w = w // ratio)
+--Call--
+> /root/miniconda3/lib/python3.8/site-packages/einops/einops.py(424)rearrange()
+-> def rearrange(tensor: Union[Tensor, List[Tensor]], pattern: str, **axes_lengths) -> Tensor:
+> /root/miniconda3/lib/python3.8/site-packages/einops/einops.py(479)rearrange()
+-> if isinstance(tensor, list):
+> /root/miniconda3/lib/python3.8/site-packages/einops/einops.py(483)rearrange()
+-> return reduce(cast(Tensor, tensor), pattern, reduction='rearrange', **axes_lengths)
+--Call--
+> /root/miniconda3/lib/python3.8/typing.py(1149)cast()
+-> def cast(typ, val):
+> /root/miniconda3/lib/python3.8/typing.py(1157)cast()
+-> return val
+--Return--
+> /root/miniconda3/lib/python3.8/typing.py(1157)cast()->tensor([[[  0...torch.float16)
+-> return val
+--Call--
+> /root/miniconda3/lib/python3.8/site-packages/einops/einops.py(357)reduce()
+-> def reduce(tensor: Tensor, pattern: str, reduction: Reduction, **axes_lengths: int) -> Tensor:
+*** NameError: name 'ss' is not defined
+> /root/miniconda3/lib/python3.8/site-packages/einops/einops.py(409)reduce()
+-> try:
+> /root/miniconda3/lib/python3.8/site-packages/einops/einops.py(410)reduce()
+-> hashable_axes_lengths = tuple(sorted(axes_lengths.items()))
+> /root/miniconda3/lib/python3.8/site-packages/einops/einops.py(411)reduce()
+-> recipe = _prepare_transformation_recipe(pattern, reduction, axes_lengths=hashable_axes_lengths)
+Traceback (most recent call last):
+  File "train.py", line 214, in <module>
+    train(args)
+  File "train.py", line 109, in train
+    logits = model(data) # Model forward
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 273, in forward
+    layer_outputs = self.mit(x, return_layer_outputs=True)
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 223, in forward
+    x = rearrange(x, 'b c (d h w) -> b c d h w', h = h // ratio, w = w // ratio)
+  File "/root/miniconda3/lib/python3.8/site-packages/einops/einops.py", line 483, in rearrange
+    return reduce(cast(Tensor, tensor), pattern, reduction='rearrange', **axes_lengths)
+  File "/root/miniconda3/lib/python3.8/site-packages/einops/einops.py", line 411, in reduce
+    recipe = _prepare_transformation_recipe(pattern, reduction, axes_lengths=hashable_axes_lengths)
+  File "/root/miniconda3/lib/python3.8/site-packages/einops/einops.py", line 411, in reduce
+    recipe = _prepare_transformation_recipe(pattern, reduction, axes_lengths=hashable_axes_lengths)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

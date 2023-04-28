@@ -1,0 +1,24 @@
+
+Train Epoch: 1 [20/1592 (1.19%)]	Loss: 0.2541	mIoU: 0.0061%	Acc: 68.1442%	Precision: 0.0061%	Recall: 16.8999%	
+Train Epoch: 1 [40/1592 (2.45%)]	Loss: 1.1209	mIoU: 0.0000%	Acc: 90.6171%	Precision: 0.0000%	Recall: 0.0000%	
+Train Epoch: 1 [60/1592 (3.71%)]	Loss: 1.0743	mIoU: 0.0140%	Acc: 78.4805%	Precision: 0.0143%	Recall: 8.6826%	
+Train Epoch: 1 [80/1592 (4.96%)]	Loss: 0.5891	mIoU: 0.0096%	Acc: 75.5315%	Precision: 0.0097%	Recall: 15.3194%	
+Train Epoch: 1 [100/1592 (6.22%)]	Loss: 0.7096	mIoU: 0.0094%	Acc: 80.4531%	Precision: 0.0094%	Recall: 21.3337%	
+Train Epoch: 1 [120/1592 (7.47%)]	Loss: 0.0863	mIoU: 0.0358%	Acc: 60.6736%	Precision: 0.0359%	Recall: 50.3223%	
+Traceback (most recent call last):
+  File "train.py", line 214, in <module>
+    train(args)
+  File "train.py", line 100, in train
+    for batch_idx, (data, target) in enumerate(train_loader):
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/Code/Code/dataset.py", line 40, in __getitem__
+    dist = np.linalg.norm(dist_vec, ord=2, axis=-1)
+  File "<__array_function__ internals>", line 5, in norm
+KeyboardInterrupt

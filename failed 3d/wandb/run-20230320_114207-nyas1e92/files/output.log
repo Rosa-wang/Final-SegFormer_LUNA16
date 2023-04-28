@@ -1,0 +1,100 @@
+Train Epoch: 1 [20/1592 (1.19%)]	Loss: 0.1798	mIoU: 0.0280%	Acc: 69.1510%	Precision: 0.0282%	Recall: 32.0417%	
+Train Epoch: 1 [40/1592 (2.45%)]	Loss: 0.0406	mIoU: 0.0062%	Acc: 91.7099%	Precision: 0.0063%	Recall: 0.5263%	
+Train Epoch: 1 [60/1592 (3.71%)]	Loss: 0.1803	mIoU: 0.0492%	Acc: 86.9492%	Precision: 0.0506%	Recall: 10.2948%	
+Train Epoch: 1 [80/1592 (4.96%)]	Loss: 0.0606	mIoU: 0.0660%	Acc: 93.6714%	Precision: 0.0671%	Recall: 20.5134%	
+Train Epoch: 1 [100/1592 (6.22%)]	Loss: 0.2923	mIoU: 0.0524%	Acc: 90.3345%	Precision: 0.0527%	Recall: 23.3500%	
+Train Epoch: 1 [120/1592 (7.47%)]	Loss: 0.1379	mIoU: 0.0773%	Acc: 83.3260%	Precision: 0.0777%	Recall: 34.5406%	
+Train Epoch: 1 [140/1592 (8.73%)]	Loss: 0.0902	mIoU: 0.0189%	Acc: 82.6881%	Precision: 0.0190%	Recall: 17.4561%	
+Train Epoch: 1 [160/1592 (9.99%)]	Loss: 0.1595	mIoU: 0.1866%	Acc: 87.1570%	Precision: 0.2056%	Recall: 15.5583%	
+Train Epoch: 1 [180/1592 (11.24%)]	Loss: 0.0233	mIoU: 0.1233%	Acc: 83.4583%	Precision: 0.1251%	Recall: 62.5158%	
+Train Epoch: 1 [200/1592 (12.50%)]	Loss: 0.0954	mIoU: 0.2335%	Acc: 71.2314%	Precision: 0.2366%	Recall: 41.6018%	
+Train Epoch: 1 [220/1592 (13.76%)]	Loss: 0.0829	mIoU: 0.0179%	Acc: 69.8347%	Precision: 0.0180%	Recall: 28.1250%	
+Train Epoch: 1 [240/1592 (15.01%)]	Loss: 0.0574	mIoU: 0.0984%	Acc: 81.7999%	Precision: 0.0991%	Recall: 30.0799%	
+Train Epoch: 1 [260/1592 (16.27%)]	Loss: 0.0143	mIoU: 0.0142%	Acc: 76.2460%	Precision: 0.0142%	Recall: 20.8036%	
+Train Epoch: 1 [280/1592 (17.53%)]	Loss: 0.0241	mIoU: 0.0574%	Acc: 83.0238%	Precision: 0.0579%	Recall: 20.8931%	
+Train Epoch: 1 [300/1592 (18.78%)]	Loss: 0.0097	mIoU: 0.0128%	Acc: 84.9947%	Precision: 0.0128%	Recall: 14.7500%	
+Train Epoch: 1 [320/1592 (20.04%)]	Loss: 0.0364	mIoU: 0.0448%	Acc: 87.4223%	Precision: 0.0450%	Recall: 34.4906%	
+Train Epoch: 1 [340/1592 (21.29%)]	Loss: 0.0106	mIoU: 0.0055%	Acc: 86.5256%	Precision: 0.0055%	Recall: 10.0000%	
+Train Epoch: 1 [360/1592 (22.55%)]	Loss: 0.1224	mIoU: 0.1911%	Acc: 87.9768%	Precision: 0.1948%	Recall: 24.7597%	
+Train Epoch: 1 [380/1592 (23.81%)]	Loss: 0.1125	mIoU: 0.1562%	Acc: 82.8362%	Precision: 0.1612%	Recall: 33.2534%	
+Train Epoch: 1 [400/1592 (25.06%)]	Loss: 0.0184	mIoU: 0.0570%	Acc: 88.3269%	Precision: 0.0578%	Recall: 13.9098%	
+Train Epoch: 1 [420/1592 (26.32%)]	Loss: 0.0244	mIoU: 0.0146%	Acc: 77.2372%	Precision: 0.0146%	Recall: 26.9048%	
+Train Epoch: 1 [440/1592 (27.58%)]	Loss: 0.0213	mIoU: 0.0293%	Acc: 83.4976%	Precision: 0.0294%	Recall: 24.6104%	
+Train Epoch: 1 [460/1592 (28.83%)]	Loss: 0.0210	mIoU: 0.1115%	Acc: 87.8798%	Precision: 0.1121%	Recall: 44.4460%	
+Train Epoch: 1 [480/1592 (30.09%)]	Loss: 0.0680	mIoU: 0.0514%	Acc: 90.1295%	Precision: 0.0520%	Recall: 23.6033%	
+Train Epoch: 1 [500/1592 (31.34%)]	Loss: 0.0324	mIoU: 0.2550%	Acc: 84.9986%	Precision: 0.2578%	Recall: 35.2575%	
+Train Epoch: 1 [520/1592 (32.60%)]	Loss: 0.0503	mIoU: 0.2412%	Acc: 82.3245%	Precision: 0.2524%	Recall: 24.8335%	
+Train Epoch: 1 [540/1592 (33.86%)]	Loss: 0.0462	mIoU: 0.1384%	Acc: 39.2184%	Precision: 0.1399%	Recall: 71.9058%	
+Train Epoch: 1 [560/1592 (35.11%)]	Loss: 0.0639	mIoU: 0.0070%	Acc: 26.3496%	Precision: 0.0070%	Recall: 56.5774%	
+Train Epoch: 1 [580/1592 (36.37%)]	Loss: 0.0370	mIoU: 0.0094%	Acc: 57.0160%	Precision: 0.0094%	Recall: 16.8797%	
+Train Epoch: 1 [600/1592 (37.63%)]	Loss: 0.0153	mIoU: 0.0488%	Acc: 83.0362%	Precision: 0.0489%	Recall: 33.7037%	
+Train Epoch: 1 [620/1592 (38.88%)]	Loss: 0.0100	mIoU: 0.0822%	Acc: 82.1190%	Precision: 0.0826%	Recall: 47.4735%	
+Train Epoch: 1 [640/1592 (40.14%)]	Loss: 0.0106	mIoU: 0.0400%	Acc: 82.7386%	Precision: 0.0402%	Recall: 27.1063%	
+Train Epoch: 1 [660/1592 (41.39%)]	Loss: 0.0375	mIoU: 0.1402%	Acc: 85.1955%	Precision: 0.1439%	Recall: 47.9304%	
+Train Epoch: 1 [680/1592 (42.65%)]	Loss: 0.0080	mIoU: 0.0081%	Acc: 81.8243%	Precision: 0.0081%	Recall: 7.1429%	
+Train Epoch: 1 [700/1592 (43.91%)]	Loss: 0.0141	mIoU: 0.0402%	Acc: 85.5853%	Precision: 0.0403%	Recall: 38.0576%	
+Train Epoch: 1 [720/1592 (45.16%)]	Loss: 0.0219	mIoU: 0.1090%	Acc: 83.7361%	Precision: 0.1113%	Recall: 15.4336%	
+Train Epoch: 1 [740/1592 (46.42%)]	Loss: 0.0186	mIoU: 0.2431%	Acc: 86.0326%	Precision: 0.2498%	Recall: 38.4939%	
+Train Epoch: 1 [760/1592 (47.68%)]	Loss: 0.0235	mIoU: 0.0395%	Acc: 87.6492%	Precision: 0.0401%	Recall: 26.1678%	
+Train Epoch: 1 [780/1592 (48.93%)]	Loss: 0.0286	mIoU: 0.3439%	Acc: 84.1547%	Precision: 0.3654%	Recall: 41.8087%	
+Train Epoch: 1 [800/1592 (50.19%)]	Loss: 0.0089	mIoU: 0.0891%	Acc: 85.7680%	Precision: 0.0908%	Recall: 15.1477%	
+Train Epoch: 1 [820/1592 (51.44%)]	Loss: 0.0187	mIoU: 0.0517%	Acc: 80.0755%	Precision: 0.0523%	Recall: 32.6760%	
+Train Epoch: 1 [840/1592 (52.70%)]	Loss: 0.0075	mIoU: 0.0108%	Acc: 82.3589%	Precision: 0.0108%	Recall: 30.0000%	
+Train Epoch: 1 [860/1592 (53.96%)]	Loss: 0.0233	mIoU: 0.4927%	Acc: 81.3368%	Precision: 0.6602%	Recall: 23.5085%	
+Train Epoch: 1 [880/1592 (55.21%)]	Loss: 0.0101	mIoU: 0.0371%	Acc: 85.7874%	Precision: 0.0375%	Recall: 15.0343%	
+Train Epoch: 1 [900/1592 (56.47%)]	Loss: 0.0150	mIoU: 0.0735%	Acc: 78.3882%	Precision: 0.0738%	Recall: 59.9932%	
+Train Epoch: 1 [920/1592 (57.73%)]	Loss: 0.0170	mIoU: 0.1011%	Acc: 80.5229%	Precision: 0.1023%	Recall: 53.2662%	
+Train Epoch: 1 [940/1592 (58.98%)]	Loss: 0.0347	mIoU: 0.2643%	Acc: 81.4806%	Precision: 0.2757%	Recall: 54.2664%	
+Train Epoch: 1 [960/1592 (60.24%)]	Loss: 0.0117	mIoU: 0.0382%	Acc: 77.3941%	Precision: 0.0383%	Recall: 42.2685%	
+Train Epoch: 1 [980/1592 (61.49%)]	Loss: 0.0120	mIoU: 0.0283%	Acc: 78.0147%	Precision: 0.0284%	Recall: 25.9117%	
+Train Epoch: 1 [1000/1592 (62.75%)]	Loss: 0.0277	mIoU: 0.2297%	Acc: 64.5926%	Precision: 0.2359%	Recall: 50.5395%	
+Train Epoch: 1 [1020/1592 (64.01%)]	Loss: 0.0348	mIoU: 0.0161%	Acc: 34.5111%	Precision: 0.0162%	Recall: 42.9312%	
+Train Epoch: 1 [1040/1592 (65.26%)]	Loss: 0.0461	mIoU: 0.0205%	Acc: 25.9164%	Precision: 0.0205%	Recall: 50.3918%	
+Train Epoch: 1 [1060/1592 (66.52%)]	Loss: 0.0320	mIoU: 0.0041%	Acc: 35.9492%	Precision: 0.0041%	Recall: 14.0602%	
+Train Epoch: 1 [1080/1592 (67.78%)]	Loss: 0.0223	mIoU: 0.0561%	Acc: 54.6072%	Precision: 0.0568%	Recall: 17.4993%	
+Train Epoch: 1 [1100/1592 (69.03%)]	Loss: 0.0125	mIoU: 0.0926%	Acc: 81.1852%	Precision: 0.0941%	Recall: 27.1726%	
+Train Epoch: 1 [1120/1592 (70.29%)]	Loss: 0.0158	mIoU: 0.0933%	Acc: 83.5179%	Precision: 0.0948%	Recall: 23.6344%	
+Train Epoch: 1 [1140/1592 (71.55%)]	Loss: 0.0090	mIoU: 0.0654%	Acc: 80.9128%	Precision: 0.0661%	Recall: 19.5833%	
+Train Epoch: 1 [1160/1592 (72.80%)]	Loss: 0.0083	mIoU: 0.0468%	Acc: 80.9801%	Precision: 0.0469%	Recall: 44.6640%	
+Train Epoch: 1 [1180/1592 (74.06%)]	Loss: 0.0100	mIoU: 0.1193%	Acc: 87.8658%	Precision: 0.1212%	Recall: 29.4131%	
+Train Epoch: 1 [1200/1592 (75.31%)]	Loss: 0.0118	mIoU: 0.1159%	Acc: 89.6887%	Precision: 0.1179%	Recall: 14.3032%	
+Train Epoch: 1 [1220/1592 (76.57%)]	Loss: 0.0219	mIoU: 0.1031%	Acc: 84.9657%	Precision: 0.1040%	Recall: 41.3136%	
+Train Epoch: 1 [1240/1592 (77.83%)]	Loss: 0.0058	mIoU: 0.0952%	Acc: 90.5110%	Precision: 0.0962%	Recall: 39.3356%	
+Train Epoch: 1 [1260/1592 (79.08%)]	Loss: 0.0079	mIoU: 0.0749%	Acc: 83.5234%	Precision: 0.0754%	Recall: 37.4507%	
+Train Epoch: 1 [1280/1592 (80.34%)]	Loss: 0.0223	mIoU: 0.2191%	Acc: 87.5558%	Precision: 0.2227%	Recall: 32.1761%	
+Train Epoch: 1 [1300/1592 (81.60%)]	Loss: 0.0169	mIoU: 0.3322%	Acc: 86.3721%	Precision: 0.3377%	Recall: 60.5581%	
+Train Epoch: 1 [1320/1592 (82.85%)]	Loss: 0.0219	mIoU: 0.2989%	Acc: 85.9283%	Precision: 0.3032%	Recall: 57.8435%	
+Train Epoch: 1 [1340/1592 (84.11%)]	Loss: 0.0086	mIoU: 0.2355%	Acc: 78.2727%	Precision: 0.2490%	Recall: 38.0303%	
+Train Epoch: 1 [1360/1592 (85.36%)]	Loss: 0.0088	mIoU: 0.0354%	Acc: 81.7700%	Precision: 0.0355%	Recall: 25.6283%	
+Train Epoch: 1 [1380/1592 (86.62%)]	Loss: 0.0077	mIoU: 0.0225%	Acc: 81.5610%	Precision: 0.0225%	Recall: 23.2331%	
+Train Epoch: 1 [1400/1592 (87.88%)]	Loss: 0.0093	mIoU: 0.2736%	Acc: 81.9762%	Precision: 0.2891%	Recall: 35.4305%	
+Train Epoch: 1 [1420/1592 (89.13%)]	Loss: 0.0159	mIoU: 0.0240%	Acc: 86.5997%	Precision: 0.0241%	Recall: 32.1073%	
+Train Epoch: 1 [1440/1592 (90.39%)]	Loss: 0.0148	mIoU: 0.1776%	Acc: 82.6973%	Precision: 0.1797%	Recall: 67.0673%	
+Train Epoch: 1 [1460/1592 (91.65%)]	Loss: 0.0074	mIoU: 0.0256%	Acc: 81.4557%	Precision: 0.0257%	Recall: 18.7970%	
+Train Epoch: 1 [1480/1592 (92.90%)]	Loss: 0.0059	mIoU: 0.0181%	Acc: 84.0529%	Precision: 0.0181%	Recall: 19.6429%	
+Train Epoch: 1 [1500/1592 (94.16%)]	Loss: 0.0080	mIoU: 0.4903%	Acc: 91.9992%	Precision: 0.5609%	Recall: 32.0547%	
+Train Epoch: 1 [1520/1592 (95.41%)]	Loss: 0.0068	mIoU: 0.1177%	Acc: 86.1050%	Precision: 0.1188%	Recall: 45.3014%	
+Train Epoch: 1 [1540/1592 (96.67%)]	Loss: 0.0117	mIoU: 0.0838%	Acc: 84.3942%	Precision: 0.0849%	Recall: 24.1559%	
+Train Epoch: 1 [1560/1592 (97.93%)]	Loss: 0.0088	mIoU: 0.1990%	Acc: 83.3340%	Precision: 0.2016%	Recall: 23.8890%	
+Train Epoch: 1 [1580/1592 (99.18%)]	Loss: 0.0118	mIoU: 0.3488%	Acc: 91.1530%	Precision: 0.3710%	Recall: 18.9181%	
+Train Epoch: 1 	 No: 0 	 Loss: 0.036891 	 Miou: 0.110%
+Train Epoch: 2 [20/1592 (1.19%)]	Loss: 0.0114	mIoU: 0.2105%	Acc: 87.9518%	Precision: 0.2189%	Recall: 33.9599%	
+Train Epoch: 2 [40/1592 (2.45%)]	Loss: 0.0106	mIoU: 0.0814%	Acc: 86.2886%	Precision: 0.0819%	Recall: 28.8994%	
+Train Epoch: 2 [60/1592 (3.71%)]	Loss: 0.0241	mIoU: 0.1602%	Acc: 78.3282%	Precision: 0.1624%	Recall: 48.5058%	
+Train Epoch: 2 [80/1592 (4.96%)]	Loss: 0.0130	mIoU: 0.0842%	Acc: 76.3321%	Precision: 0.0845%	Recall: 44.6733%	
+Train Epoch: 2 [100/1592 (6.22%)]	Loss: 0.0183	mIoU: 0.1656%	Acc: 76.9823%	Precision: 0.1674%	Recall: 58.1974%	
+Train Epoch: 2 [120/1592 (7.47%)]	Loss: 0.0098	mIoU: 0.0983%	Acc: 81.3371%	Precision: 0.0986%	Recall: 42.7712%	
+Train Epoch: 2 [140/1592 (8.73%)]	Loss: 0.0089	mIoU: 0.0426%	Acc: 82.5656%	Precision: 0.0429%	Recall: 31.0088%	
+Train Epoch: 2 [160/1592 (9.99%)]	Loss: 0.0143	mIoU: 0.6212%	Acc: 85.4472%	Precision: 0.6551%	Recall: 32.0546%	
+Train Epoch: 2 [180/1592 (11.24%)]	Loss: 0.0071	mIoU: 0.1496%	Acc: 85.5565%	Precision: 0.1515%	Recall: 56.1741%	
+Train Epoch: 2 [200/1592 (12.50%)]	Loss: 0.0189	mIoU: 0.3380%	Acc: 79.7215%	Precision: 0.3437%	Recall: 43.5222%	
+Train Epoch: 2 [220/1592 (13.76%)]	Loss: 0.0083	mIoU: 0.0202%	Acc: 80.0598%	Precision: 0.0203%	Recall: 18.2031%	
+Train Epoch: 2 [240/1592 (15.01%)]	Loss: 0.0131	mIoU: 0.1087%	Acc: 86.9363%	Precision: 0.1095%	Recall: 31.3460%	
+Traceback (most recent call last):
+  File "train.py", line 213, in <module>
+    train(args)
+  File "train.py", line 123, in train
+    miou = mIoU(logits, target)
+  File "train.py", line 57, in mIoU
+    if union.sum() == 0:
+KeyboardInterrupt

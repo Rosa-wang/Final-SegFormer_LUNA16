@@ -1,0 +1,31 @@
+> /root/Code/Code/model.py(221)forward()
+-> num_patches = x.shape[-1]
+Traceback (most recent call last):
+  File "/root/miniconda3/lib/python3.8/site-packages/einops/einops.py", line 412, in reduce
+    return _apply_recipe(recipe, tensor, reduction_type=reduction)
+  File "/root/miniconda3/lib/python3.8/site-packages/einops/einops.py", line 235, in _apply_recipe
+    _reconstruct_from_shape(recipe, backend.shape(tensor))
+  File "/root/miniconda3/lib/python3.8/site-packages/einops/einops.py", line 200, in _reconstruct_from_shape_uncached
+    raise EinopsError("Shape mismatch, can't divide axis of length {} in chunks of {}".format(
+einops.EinopsError: Shape mismatch, can't divide axis of length 79507 in chunks of 1764
+During handling of the above exception, another exception occurred:
+Traceback (most recent call last):
+  File "train.py", line 214, in <module>
+    train(args)
+  File "train.py", line 109, in train
+    logits = model(data) # Model forward
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 274, in forward
+    layer_outputs = self.mit(x, return_layer_outputs=True)
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 221, in forward
+    num_patches = x.shape[-1]
+  File "/root/miniconda3/lib/python3.8/site-packages/einops/einops.py", line 483, in rearrange
+    return reduce(cast(Tensor, tensor), pattern, reduction='rearrange', **axes_lengths)
+  File "/root/miniconda3/lib/python3.8/site-packages/einops/einops.py", line 420, in reduce
+    raise EinopsError(message + '\n {}'.format(e))
+einops.EinopsError:  Error while processing rearrange-reduction pattern "b c (d h w) -> b c d h w".
+ Input tensor shape: torch.Size([1, 125, 79507]). Additional info: {'h': 42, 'w': 42}.
+ Shape mismatch, can't divide axis of length 79507 in chunks of 1764

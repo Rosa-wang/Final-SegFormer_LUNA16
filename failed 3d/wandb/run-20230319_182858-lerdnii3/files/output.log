@@ -1,0 +1,22 @@
+> /root/Code/Code/model.py(225)forward()
+-> for (attn, ff) in layers:
+Traceback (most recent call last):
+  File "train.py", line 214, in <module>
+    train(args)
+  File "train.py", line 109, in train
+    logits = model(data) # Model forward
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 273, in forward
+    fused = [to_fused(output) for output, to_fused in zip(layer_outputs, self.to_fused)]
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 225, in forward
+    x = attn(x) + x
+  File "/root/Code/Code/model.py", line 225, in forward
+    x = attn(x) + x
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

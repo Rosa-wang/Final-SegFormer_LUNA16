@@ -1,0 +1,33 @@
+> /root/Code/Code/dataset.py(36)__getitem__()
+-> x, y, z = np.indices(patch.shape)
+[54, 36, 88]
+*** RuntimeError: Tensor type unknown to einops <class 'int'>
+array([54, 36, 88])
+*** RuntimeError: Tensor type unknown to einops <class 'int'>
+*** SyntaxError: invalid syntax
+*** RuntimeError: Tensor type unknown to einops <class 'int'>
+*** AttributeError: 'list' object has no attribute 'transpose'
+*** NameError: name 'no' is not defined
+*** ValueError: not enough values to unpack (expected 2, got 1)
+Traceback (most recent call last):
+  File "train.py", line 214, in <module>
+    train(args)
+  File "train.py", line 100, in train
+    for batch_idx, (data, target) in enumerate(train_loader):
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/Code/Code/dataset.py", line 36, in __getitem__
+    x, y, z = np.indices(patch.shape)
+  File "/root/Code/Code/dataset.py", line 36, in __getitem__
+    x, y, z = np.indices(patch.shape)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

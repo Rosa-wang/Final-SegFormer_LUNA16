@@ -1,0 +1,22 @@
+Traceback (most recent call last):
+  File "train.py", line 214, in <module>
+    train(args)
+  File "train.py", line 80, in train
+    train_loaders, val_loaders = build_dataloader()
+  File "/root/Code/Code/dataloader.py", line 10, in build_dataloader
+    meta = pd.read_csv(f'{OUTPUT_PATH}/preprocessed_meta', index_col=0).sample(frac=1).reset_index(drop=True)
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 610, in read_csv
+    return _read(filepath_or_buffer, kwds)
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 462, in _read
+    parser = TextFileReader(filepath_or_buffer, **kwds)
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 819, in __init__
+    self._engine = self._make_engine(self.engine)
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 1050, in _make_engine
+    return mapping[engine](self.f, **self.options)  # type: ignore[call-arg]
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 1867, in __init__
+    self._open_handles(src, kwds)
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/parsers.py", line 1362, in _open_handles
+    self.handles = get_handle(
+  File "/root/miniconda3/lib/python3.8/site-packages/pandas/io/common.py", line 642, in get_handle
+    handle = open(
+FileNotFoundError: [Errno 2] No such file or directory: '/root/autodl-tmp/preprocessed_data/preprocessed_meta'

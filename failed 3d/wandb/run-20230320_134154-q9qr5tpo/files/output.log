@@ -1,0 +1,14 @@
+Traceback (most recent call last):
+  File "train.py", line 213, in <module>
+    train(args)
+  File "train.py", line 109, in train
+    loss = loss_fn(logits, target) # Loss function
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "train.py", line 38, in forward
+    loss = sigmoid_focal_loss(inputs, one_hot_tgt).mean(dim=1)
+  File "/root/miniconda3/lib/python3.8/site-packages/torchvision/ops/focal_loss.py", line 38, in sigmoid_focal_loss
+    ce_loss = F.binary_cross_entropy_with_logits(inputs, targets, reduction="none")
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/functional.py", line 3130, in binary_cross_entropy_with_logits
+    raise ValueError("Target size ({}) must be the same as input size ({})".format(target.size(), input.size()))
+ValueError: Target size (torch.Size([1, 2, 128, 128, 128])) must be the same as input size (torch.Size([1, 2, 32, 32, 32]))

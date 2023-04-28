@@ -1,0 +1,41 @@
+> /root/Code/Code/model.py(220)forward()
+-> x = get_overlap_patches(x)
+torch.Size([1, 1, 128, 128, 128])
+> /root/Code/Code/model.py(224)forward()
+-> x = rearrange(x, 'b c (d h w) -> b c d h w', h = h // ratio, w = w // ratio)
+torch.Size([1, 343, 32768])
+torch.Size([1, 343, 32768])
+> /root/Code/Code/model.py(227)forward()
+-> for (attn, ff) in layers:
+torch.Size([1, 32, 32, 32, 32])
+> /root/Code/Code/model.py(219)forward()
+-> import pdb; pdb.set_trace()
+torch.Size([1, 32, 32, 32, 32])
+> /root/Code/Code/model.py(224)forward()
+-> x = rearrange(x, 'b c (d h w) -> b c d h w', h = h // ratio, w = w // ratio)
+torch.Size([1, 864, 4096])
+> /root/Code/Code/model.py(227)forward()
+-> for (attn, ff) in layers:
+> /root/Code/Code/model.py(219)forward()
+-> import pdb; pdb.set_trace()
+torch.Size([1, 64, 16, 16, 16])
+Traceback (most recent call last):
+  File "train.py", line 214, in <module>
+    train(args)
+  File "train.py", line 109, in train
+    logits = model(data) # Model forward
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 275, in forward
+    layer_outputs = self.mit(x, return_layer_outputs=True)
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 219, in forward
+    import pdb; pdb.set_trace()
+  File "/root/Code/Code/model.py", line 219, in forward
+    import pdb; pdb.set_trace()
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

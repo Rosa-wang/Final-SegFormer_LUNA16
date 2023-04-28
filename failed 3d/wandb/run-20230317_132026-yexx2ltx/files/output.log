@@ -1,0 +1,27 @@
+> /root/Code/Code/model.py(225)forward()
+-> for (attn, ff) in layers:
+torch.Size([1, 32, 64, 64, 64])
+Traceback (most recent call last):
+  File "train.py", line 214, in <module>
+    train(args)
+  File "train.py", line 109, in train
+    logits = model(data) # Model forward
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 273, in forward
+    layer_outputs = self.mit(x, return_layer_outputs=True)
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 225, in forward
+    for (attn, ff) in layers:
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 75, in forward
+    return self.fn(self.norm(x))
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/nn/modules/module.py", line 1110, in _call_impl
+    return forward_call(*input, **kwargs)
+  File "/root/Code/Code/model.py", line 130, in forward
+    sim = einsum('b i d, b j d -> b i j', q, k) * self.scale
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/functional.py", line 330, in einsum
+    return _VF.einsum(equation, operands)  # type: ignore[attr-defined]
+RuntimeError: CUDA out of memory. Tried to allocate 2.00 GiB (GPU 0; 11.77 GiB total capacity; 7.02 GiB already allocated; 1.34 GiB free; 8.44 GiB reserved in total by PyTorch) If reserved memory is >> allocated memory try setting max_split_size_mb to avoid fragmentation.  See documentation for Memory Management and PYTORCH_CUDA_ALLOC_CONF

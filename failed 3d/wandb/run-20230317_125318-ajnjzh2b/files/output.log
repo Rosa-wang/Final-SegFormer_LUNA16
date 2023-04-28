@@ -1,0 +1,64 @@
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+3.720465543416078
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+3.255854428517024
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+5.047010520949871
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+6.141649215772626
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+3.3399473812519322
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+2.0682021741722822
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+6.62534353919805
+> /root/Code/Code/dataset.py(41)__getitem__()
+-> import pdb; pdb.set_trace()
+6.575668540566672
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+5.27622974616617
+> /root/Code/Code/dataset.py(41)__getitem__()
+-> import pdb; pdb.set_trace()
+5.236670030678365
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+3.169345306322421
+3.169345306322421
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+2.983490118502599
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+2.086147464044262
+> /root/Code/Code/dataset.py(42)__getitem__()
+-> mask = dist <= radii[c]
+Traceback (most recent call last):
+  File "train.py", line 214, in <module>
+    train(args)
+  File "train.py", line 100, in train
+    for batch_idx, (data, target) in enumerate(train_loader):
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/Code/Code/dataset.py", line 42, in __getitem__
+    mask = dist <= radii[c]
+  File "/root/Code/Code/dataset.py", line 42, in __getitem__
+    mask = dist <= radii[c]
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 88, in trace_dispatch
+    return self.dispatch_line(frame)
+  File "/root/miniconda3/lib/python3.8/bdb.py", line 113, in dispatch_line
+    if self.quitting: raise BdbQuit
+bdb.BdbQuit

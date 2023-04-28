@@ -1,0 +1,43 @@
+
+Train Epoch: 1 [20/1592 (1.19%)]	Loss: 0.2324	mIoU: 0.0569%	Acc: 55.5438%	Precision: 0.0573%	Recall: 28.6233%	
+Train Epoch: 1 [40/1592 (2.45%)]	Loss: 0.2538	mIoU: 0.0105%	Acc: 82.0941%	Precision: 0.0105%	Recall: 14.1113%	
+Train Epoch: 1 [60/1592 (3.71%)]	Loss: 0.1972	mIoU: 0.0724%	Acc: 83.1239%	Precision: 0.0730%	Recall: 22.6602%	
+Train Epoch: 1 [80/1592 (4.96%)]	Loss: 0.2009	mIoU: 0.0855%	Acc: 83.9490%	Precision: 0.0866%	Recall: 28.0490%	
+Train Epoch: 1 [100/1592 (6.22%)]	Loss: 0.1755	mIoU: 0.0376%	Acc: 84.3117%	Precision: 0.0378%	Recall: 31.1915%	
+Train Epoch: 1 [120/1592 (7.47%)]	Loss: 0.4250	mIoU: 0.0786%	Acc: 59.3016%	Precision: 0.0794%	Recall: 33.3411%	
+Train Epoch: 1 [140/1592 (8.73%)]	Loss: 0.2308	mIoU: 0.0161%	Acc: 87.6273%	Precision: 0.0164%	Recall: 14.8157%	
+Train Epoch: 1 [160/1592 (9.99%)]	Loss: 0.3710	mIoU: 0.0203%	Acc: 77.1266%	Precision: 0.0203%	Recall: 31.5853%	
+Train Epoch: 1 [180/1592 (11.24%)]	Loss: 0.1423	mIoU: 0.0277%	Acc: 78.2786%	Precision: 0.0278%	Recall: 15.2233%	
+Train Epoch: 1 [200/1592 (12.50%)]	Loss: 0.6485	mIoU: 0.0129%	Acc: 90.1377%	Precision: 0.0129%	Recall: 13.5558%	
+Train Epoch: 1 [220/1592 (13.76%)]	Loss: 0.2695	mIoU: 0.0081%	Acc: 92.4322%	Precision: 0.0081%	Recall: 9.2674%	
+Train Epoch: 1 [240/1592 (15.01%)]	Loss: 0.0982	mIoU: 0.3499%	Acc: 94.8727%	Precision: 2.4732%	Recall: 13.3642%	
+Train Epoch: 1 [260/1592 (16.27%)]	Loss: 0.4456	mIoU: 0.0534%	Acc: 68.0614%	Precision: 0.0544%	Recall: 18.5607%	
+Train Epoch: 1 [280/1592 (17.53%)]	Loss: 0.6535	mIoU: 0.0133%	Acc: 90.3521%	Precision: 0.0134%	Recall: 9.5583%	
+Train Epoch: 1 [300/1592 (18.78%)]	Loss: 0.6562	mIoU: 0.0188%	Acc: 92.6612%	Precision: 0.0188%	Recall: 23.2907%	
+Train Epoch: 1 [320/1592 (20.04%)]	Loss: 0.4583	mIoU: 0.0000%	Acc: 92.8532%	Precision: 0.0000%	Recall: 0.0000%	
+Train Epoch: 1 [340/1592 (21.29%)]	Loss: 0.7427	mIoU: 0.0806%	Acc: 33.5495%	Precision: 0.0817%	Recall: 53.5606%	
+Train Epoch: 1 [360/1592 (22.55%)]	Loss: 0.1282	mIoU: 0.0228%	Acc: 75.1303%	Precision: 0.0218%	Recall: 15.9732%	
+Train Epoch: 1 [380/1592 (23.81%)]	Loss: 0.0618	mIoU: 0.0117%	Acc: 97.2094%	Precision: 0.0112%	Recall: 5.8852%	
+Train Epoch: 1 [400/1592 (25.06%)]	Loss: 0.6533	mIoU: 0.0388%	Acc: 78.8210%	Precision: 0.0358%	Recall: 10.5584%	
+Train Epoch: 1 [420/1592 (26.32%)]	Loss: 0.1352	mIoU: 0.0119%	Acc: 94.7558%	Precision: 0.0113%	Recall: 6.8799%	
+Train Epoch: 1 [440/1592 (27.58%)]	Loss: 0.2966	mIoU: 0.0932%	Acc: 82.4221%	Precision: 0.1068%	Recall: 22.7538%	
+Train Epoch: 1 [460/1592 (28.83%)]	Loss: 0.1291	mIoU: 0.0840%	Acc: 60.0082%	Precision: 0.0848%	Recall: 39.2431%	
+Train Epoch: 1 [480/1592 (30.09%)]	Loss: 0.0768	mIoU: 0.0765%	Acc: 80.7710%	Precision: 0.0770%	Recall: 28.2686%	
+Train Epoch: 1 [500/1592 (31.34%)]	Loss: 0.1184	mIoU: 0.0601%	Acc: 86.9667%	Precision: 0.0606%	Recall: 24.8212%	
+Train Epoch: 1 [520/1592 (32.60%)]	Loss: 0.2742	mIoU: 0.1255%	Acc: 89.9132%	Precision: 0.1323%	Recall: 6.3584%	
+Train Epoch: 1 [540/1592 (33.86%)]	Loss: 0.6422	mIoU: 0.0608%	Acc: 86.7523%	Precision: 0.0592%	Recall: 13.6968%	
+Train Epoch: 1 [560/1592 (35.11%)]	Loss: 0.1521	mIoU: 0.0077%	Acc: 62.4558%	Precision: 0.0077%	Recall: 16.5007%	
+Traceback (most recent call last):
+  File "train.py", line 213, in <module>
+    wandb.init(project='LUNA-16')
+  File "train.py", line 100, in train
+    for batch_idx, (data, target) in enumerate(train_loader):
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 530, in __next__
+    data = self._next_data()
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/dataloader.py", line 570, in _next_data
+    data = self._dataset_fetcher.fetch(index)  # may raise StopIteration
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in fetch
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+  File "/root/miniconda3/lib/python3.8/site-packages/torch/utils/data/_utils/fetch.py", line 49, in <listcomp>
+    data = [self.dataset[idx] for idx in possibly_batched_index]
+KeyboardInterrupt
